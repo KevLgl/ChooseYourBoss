@@ -91,11 +91,28 @@ textarea {
      padding: 0;
      margin: 0;
    }
+   .font-size-26{
+     font-size: 26px;
+   }
+   .color-white{
+     color: white;
+   }
+   .color-blue-numbersection{
+   color: #2fd;
+   }
    .flex{
      display: flex;
    }
    section img{
      width: 50%;
+   }
+   .btn{
+     background-color:#4d22ff;
+     color: white;
+     border-radius: 24px;
+     padding: 5px 25px;
+     width: fit-content;
+     text-decoration: none;
    }
 
 /* ==========================================================================
@@ -118,8 +135,19 @@ nav{
   left: 1em;
   top:0.6em;
 }
-
-
+   /* ==============================
+               HEADER
+   ============================== */
+   header{
+     margin: 4em 0;
+   }
+      /* ==============================
+        FIRST SECTION WITH NUMBER
+   ============================== */
+   .numbersection{
+     background-color:#2b345d ;
+     
+   }
 
 /* ==========================================================================
    Helper classes
