@@ -158,12 +158,8 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
-
-   section img{
-     width: 50%;
-   }
+ 
    .btn{
      background-color:#4d22ff;
      color: white;
@@ -222,6 +218,7 @@ nav{
      justify-content: center;
      height: 250px;
      width: 250px;
+     margin: 1em;
    }
    .blockmatching{
     display: flex;
@@ -239,6 +236,8 @@ nav{
    .blockmatching img{
    height: 100%;
    width: auto;
+   margin: 1em;
+  
    }
     /* ==============================
         THIRD SECTION "JOB INFO & NUMERIQUE"
@@ -257,14 +256,21 @@ nav{
         LAST SECTION WITCH GREY CARD
    ============================== */
    .greycard{
-     background-color: #E8E2DF;
+     background-color: #F4F1EF;
      display: flex;
      align-items: center;
      justify-content: center;
      width: 75%;
-     height: 65vh;
-     margin: auto;
+     height: 60vh;
+     margin: 1em auto;
      padding: 1em;
+   }
+   .greycard-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between ;
    }
 /* ==========================================================================
    Helper classes
