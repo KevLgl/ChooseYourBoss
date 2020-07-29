@@ -90,19 +90,65 @@ textarea {
    *{
      padding: 0;
      margin: 0;
+     font-family: 'Mulish', sans-serif;
    }
+   h1{
+    font-family: 'Roboto', sans-serif;
+    color: #162049;
+   }
+   h2{
+    font-family: 'Roboto', sans-serif;
+    color: #162049;
+   }
+   
+      /* ==============================
+               FONT CLASS
+   ============================== */
+   .roboto{
+   font-family: 'Roboto', sans-serif;
+   }
+   .blod{
+     font-weight: bold;
+   }
+   .font-size-46{
+    font-size: 46px;
+  }
+  .font-size-36{
+    font-size: 36px;
+  }
    .font-size-26{
      font-size: 26px;
    }
+   .font-size-20{
+    font-size: 20px;
+  }
    .color-white{
      color: white;
    }
    .color-blue-numbersection{
    color: #2fd;
    }
+   .margin-bottom-30{
+     margin-bottom: 30px;
+   }
+   .margin1{
+     margin:0 1em;
+   }
+ 
+      /* ==============================
+               GENERAL
+   ============================== */
    .flex{
      display: flex;
    }
+   .flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
    section img{
      width: 50%;
    }
@@ -124,11 +170,11 @@ textarea {
 nav{
   padding: 0.5em;
   height: 70px;
-  width: 100%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: relative;;
 }
 .burgermenu{
   position: absolute;
@@ -139,15 +185,19 @@ nav{
                HEADER
    ============================== */
    header{
-     margin: 4em 0;
+     padding: 2em
    }
       /* ==============================
         FIRST SECTION WITH NUMBER
    ============================== */
    .numbersection{
      background-color:#2b345d ;
-     
+     width: 100%;
+     height: 50vh;  
    }
+         /* ==============================
+        SECOND SECTION "L'ALGORITHME"
+   ============================== */
 
 /* ==========================================================================
    Helper classes
