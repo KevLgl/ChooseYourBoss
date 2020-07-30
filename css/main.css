@@ -85,70 +85,65 @@ textarea {
 
 
 /* ==========================================================================
-    Générals/class 
-   ========================================================================== */
-   *{
-     padding: 0;
-     margin: 0;
-     font-family: 'Mulish', sans-serif;
-   }
-   body{
-     background-image: url(img/background);
-   }
-   h1{
-    font-family: 'Roboto', sans-serif;
-    color: #162049;
-   }
-   h2{
-    font-family: 'Roboto', sans-serif;
-    color: #162049;
-    font-size: 36px;
-    text-align: center;
-    line-height: 100%;
-   }
-   h3{
-    font-family: 'Roboto', sans-serif;
-    color: #162049;
-    font-size: 18px;
-    text-align: center;
-   }
-   h4{
-     font-size:26px;
-     text-align: center;
-     line-height: 100%;
-   }
-   */
-      /* ==============================
-               FONT CLASS
-   ============================== */ 
-      /* ==============================
-               GENERAL
-   ============================== */
-   .flex{
-     display: flex;
-   }
-   .flex-column-center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
- 
-   .btn{
-    background-color:#4d22ff;
-    color: white!important;
-    border-radius: 24px;
-    padding: 5px 25px;
-    width: fit-content;
-    text-decoration: none;
-   }
+Générals/class 
+========================================================================== */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+}
+body{
+  background-image: url(img/background);
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: #162049;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: #162049;
+  font-size: 36px;
+  text-align: center;
+  line-height: 100%;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: #162049;
+  font-size: 18px;
+  text-align: center;
+}
+h4{
+  font-size:26px;
+  text-align: center;
+  line-height: 100%;
+}
+
+/* ==============================
+GENERAL
+============================== */
+
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  background-color:#4d22ff;
+  color: white!important;
+  border-radius: 24px;
+  padding: 5px 25px;
+  width: fit-content;
+  text-decoration: none;
+}
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-   /* ==============================
-               NAV TEL/TABLET
-   ============================== */
+Author's custom styles
+========================================================================== */
+/* ==============================
+NAV TEL/TABLET
+============================== */
 nav{
   height: 70px;
   width: 95%;
@@ -161,7 +156,7 @@ nav img{
   height: 100%;
   width: 100%;
 }
-#logo{
+.logo{
   height: 60px;
   width: 100px;
 }
@@ -176,273 +171,279 @@ nav img{
   height: auto;
   width: 100%;
 }
-   /* ==============================
-               NAV LAPTOP
-   ============================== */
-   
-   .nav-laptop{
-     width: 95%;
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
-     display: none;
-   }
-   .nav-laptop ul{
-     display: flex;
-     list-style-type: none;
-     width: 85%;
-   }
-   .nav-laptop li{
-    margin: 0 0.5em;;
-  }
-   .nav-laptop a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.3em;
-  }
+/* ==============================
+NAV LAPTOP
+============================== */
 
-   .nav-laptop #logo{
-     position: absolute;
-     left:0.5em;
-   }
-   /* ==============================
-               HEADER
-   ============================== */
-   header{
-     padding: 0.5em;
-     width: 95%;
-   }
-   header h1{
-     line-height:90%;
-     font-size: 46px;
-   }
-   header p{
-     font-size: 26px;
-     margin-bottom: 30px;
-   }
-   .container-img-header{
-    display: none;
-   }
-      /* ==============================
-        FIRST SECTION WITH NUMBER
-   ============================== */
-   .container-numbersection{
-     margin: 3em 0;
-   }
-   .numbersection{
-    background-color:#2b345d ;
-    width: 100%;
-    height:auto;
-   }
-   .blue-text{
-    color: #2fd;
-    font-size: 20px;
-   }
-   .white-text{
-    color:white;
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
+.nav-laptop{
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: none;
+}
+.nav-laptop ul{
+  display: flex;
+  list-style-type: none;
+  width: 85%;
+}
+.nav-laptop li{
+  margin: 0 0.5em;
+}
+.nav-laptop a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
 
-   }
-         /* ==============================
-        SECOND SECTION "L'ALGORITHME"
-   ============================== */
-   .section-algorithme{
-    width: 100%;
-    background-color: rgba(179,161,237,.2);
-    height: auto;
-    padding-top: 2em;
-   }
-   .section-algorithme p{
-     font-size: 18px;
-     text-align: center;
-   }
-   .section-algorithme a{
-     font-size:18px;
-     margin-top: 30px;
-     margin-bottom: 40px;
-   }
-   .sous-section-algo{
-    width: 90%;
-    height: auto;
-    margin:auto;
-   }
-   .image-container-algo{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     height: 250px;
-     width: 250px;
-     margin: auto;
-   }
-   .blockmatching-item img{
-    height: 100%;
-    width: auto;
-    margin: 1em;
-    }
-   .blockmatching-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0.7em;
-    
-   }
-   .blockmatching-btn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   }
+.nav-laptop .logo{
+  position: absolute;
+  left:0.5em;
+}
+/* ==============================
+HEADER
+============================== */
+header{
+  padding: 0.5em;
+  width: 95%;
+}
+header h1{
+  line-height:90%;
+  font-size: 46px;
+}
+header p{
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.container-img-header{
+  display: none;
+}
+/* ==============================
+FIRST SECTION WITH NUMBER
+============================== */
+.container-numbersection{
+  margin: 3em 0;
+}
+.numbersection{
+  background-color:#2b345d ;
+  width: 100%;
+  height:auto;
+}
+.blue-text{
+  color: #2fd;
+  font-size: 20px;
+}
+.white-text{
+  color:white;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
 
-    /* ==============================
-        THIRD SECTION "JOB INFO & NUMERIQUE"
-   ============================== */
-   .informatique-numerique{
-    height: auto;
-    width: 100%;
-    padding: 1em;
-  }
-   .informatique-numerique h4{
-    line-height: initial;
-   }
-   .image-container-info{
-    display: flex;
-    height: 200px;
-    width: 200px;
-    margin: auto;
-  }
-   .informatique-numerique img{
-      height: auto;
-      width: 100%;
-    }
-    .informatique-numerique a {
-      font-size: 20px;
-    }
-    .blockmatching-btn{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-     }
-     .block-image{
-       margin-bottom: 40px;
-     }
-      /* ==============================
-        LAST SECTION WITCH GREY CARD
-   ============================== */
-   .greycard{
-     background-color: #F4F1EF;
-     width: 75%;
-     height: auto;
-     margin: 1em auto;
-     padding: 2em;
-   }
-   .greycard p, .greycard h2{
-     margin-bottom: 40px;
-   }
-   .greycard h3{
-    text-align: initial;
-   }
-   .greycard-container {
-    height: 100%;
-   }
-   .greycard a{
-     text-align: center;
-   }
+}
+/* ==============================
+SECOND SECTION "L'ALGORITHME"
+============================== */
+.section-algorithme{
+  width: 100%;
+  background-color: rgba(179,161,237,.2);
+  height: auto;
+  padding-top: 2em;
+}
+.section-algorithme p{
+  font-size: 18px;
+  text-align: center;
+}
+.section-algorithme a{
+  font-size:18px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.sous-section-algo{
+  width: 90%;
+  height: auto;
+  margin:auto;
+}
+.image-container-algo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+.blockmatching-item img{
+  height: 100%;
+  width: auto;
+  margin: 1em;
+}
+.blockmatching-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.7em;
+}
+.blockmatching-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==============================
+THIRD SECTION "JOB INFO & NUMERIQUE"
+============================== */
+.informatique-numerique{
+  height: auto;
+  width: 100%;
+  padding: 1em;
+}
+.informatique-numerique h4{
+  line-height: initial;
+}
+.image-container-info{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+.informatique-numerique img{
+  height: auto;
+  width: 100%;
+}
+.informatique-numerique a {
+  font-size: 20px;
+}
+.blockmatching-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block-image{
+  margin-bottom: 40px;
+}
+/* ==============================
+LAST SECTION WITCH GREY CARD
+============================== */
+.greycard{
+  background-color: #F4F1EF;
+  width: 75%;
+  height: auto;
+  margin: 1em auto;
+  padding: 2em;
+}
+.greycard p, .greycard h2{
+  margin-bottom: 40px;
+}
+.greycard h3{
+  text-align: initial;
+}
+.greycard-container {
+  height: 100%;
+}
+.greycard a{
+  text-align: center;
+}
+.greycard-container-pict{
+  display: none;
+}
 
 
 
 
-  
-  @media screen and (min-width:768px){
-    /* ==============================
-            HEADER
-    ============================== */  
-    header{
+
+@media screen and (min-width:768px){
+/* ==============================
+HEADER
+============================== */  
+  header{
     margin:5em 2em;
-    }
-    /* ==============================
-        FIRST SECTION WITH NUMBER
-    ============================== */
-    .container-numbersection{
+  }
+  /* ==============================
+  FIRST SECTION WITH NUMBER
+  ============================== */
+  .container-numbersection{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    }
-    /* ==============================
-       SECOND SECTION ALGO
-    ============================== */
-    .blockmatching-item{
-      width: 40%;
-    }
-    .blockmatching{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
-    }
-      /* ==============================
-       THIRD SECTION INFO/NUM
-    ============================== */
-
-    .block-image{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      /* margin-bottom: 40px; */
-    }
- }
-  
-  @media screen and (min-width:992px){
-
   }
-  @media screen and (min-width:1200px){
-      /* ==============================
-            NAV
-    ============================== */
-    .nav-tel-tab{
-      display: none;
+  /* ==============================
+  SECOND SECTION ALGO
+  ============================== */
+  .blockmatching-item{
+    width: 40%;
+  }
+  .blockmatching{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .blockmatching-item:last-child{
+    width: 90%;
+  }
+  /* ==============================
+  THIRD SECTION INFO/NUM
+  ============================== */
+
+  .block-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-bottom: 40px; */
+  }
+}
+
+@media screen and (min-width:992px){
+
+}
+@media screen and (min-width:1200px){
+  /* ==============================
+  NAV
+  ============================== */
+  .nav-tel-tab{
+    display: none;
     }
     .nav-laptop{
-      display: flex;
+    display: flex;
     }
-    /* ==============================
-            HEADER
-    ============================== */  
-    header{
-      display: flex;
-      margin:7em 2em;
-      }
-    .container-img-header{
-      display:flex;
-      width: 100%;
-      height: auto;
-    }
-    .container-img-header img{
-      height: auto;
-      width: 100%;
-    }
-    .blockmatching-item{
-      width: 30%;
-    }
+  /* ==============================
+  HEADER
+  ============================== */  
+  header{
+  display: flex;
+  margin:7em 2em;
   }
-      /* ==============================
-           SECTION GREY CARD
-    ============================== */ 
-    .greycard{
-      display:flex;
-    }
-    .greycard-container-pict{
-
-    }
-    .greycard-container-pict img{
-      height: auto;
-      width: 100%;
-    }
+  .container-img-header{
+  display:flex;
+  width: 100%;
+  height: auto;
+  }
+  .container-img-header img{
+  height: auto;
+  width: 100%;
+  }
+  .blockmatching-item{
+  width: 30%;
+  }
+  /* ==============================
+  SECTION GREY CARD
+  ============================== */ 
+  .greycard-container-pict{
+    display: flex;
+  }
+  .greycard{
+    display:flex;
+  }
+  
+  .greycard-container-pict img{
+    height: auto;
+    width: 100%;
+  }
+} 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
