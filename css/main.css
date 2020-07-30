@@ -93,7 +93,8 @@ Générals/class
   font-family: 'Mulish', sans-serif;
 }
 body{
-  background-image: url(img/background);
+  width: 100%;
+  background-image: url(../img/background.png);
 }
 h1{
   font-family: 'Roboto', sans-serif;
@@ -198,7 +199,7 @@ NAV LAPTOP
 
 .nav-laptop .logo{
   position: absolute;
-  left:0.5em;
+  left:1em;
 }
 /* ==============================
 HEADER
@@ -295,8 +296,8 @@ THIRD SECTION "JOB INFO & NUMERIQUE"
 ============================== */
 .informatique-numerique{
   height: auto;
-  width: 100%;
-  padding: 1em;
+  width: 95%;
+  padding: 1em 0;
 }
 .informatique-numerique h4{
   line-height: initial;
