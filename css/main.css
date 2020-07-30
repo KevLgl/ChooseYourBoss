@@ -400,7 +400,7 @@ HEADER
 @media screen and (min-width:992px){
 
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px){      
   /* ==============================
   NAV
   ============================== */
@@ -428,6 +428,9 @@ HEADER
   }
   .blockmatching-item{
   width: 30%;
+  }
+  .blockmatching-item:last-child{
+    width: 30%;
   }
   /* ==============================
   SECTION GREY CARD
